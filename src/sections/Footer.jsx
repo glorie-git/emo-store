@@ -64,9 +64,7 @@ const Footer = () => {
           />
           <p>Copyright. All rights reserved.</p>
         </div>
-        <p className="font-montserrat cursor-pointer font-montserrat">
-          Terms and Conditions
-        </p>
+        <p className="cursor-pointer font-montserrat">Terms and Conditions</p>
       </div>
     </section>
   );
