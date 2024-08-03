@@ -15,7 +15,7 @@ const CustomerReviews = () => {
       </p>
       <div className="mt-24 flex flex-1 justify-evenly items-center max-lg:flex-col gap-14">
         {reviews.map((review) => (
-          <ReviewCard key={review.name} {...review} />
+          <ReviewCard key={review.customerName} {...review} />
         ))}
       </div>
     </section>
